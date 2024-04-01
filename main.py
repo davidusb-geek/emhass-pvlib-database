@@ -37,3 +37,5 @@ if num_inverters >= 100:
     st.write("Writing only when records found is < 100, try changing your search name")
 else:
     st.dataframe(df_inverters_result_search)
+
+st.caption('See here for more info: https://github.com/davidusb-geek/emhass-pvlib-database')
